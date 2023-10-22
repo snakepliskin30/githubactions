@@ -1,9 +1,9 @@
 on: push
 jobs:
   first-job:
-  stategy:
-    matrix:
-      version: [16, 18]
+    stategy:
+      matrix:
+        version: [16, 18]
     runs-on: ubuntu-latest
     steps:
       - run: node --version
