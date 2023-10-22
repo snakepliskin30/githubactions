@@ -1,7 +1,7 @@
 on: push
 jobs:
   first-job:
-    stategy:
+    strategy:
       matrix:
         version: [16, 18]
     runs-on: ubuntu-latest
